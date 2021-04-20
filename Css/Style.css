@@ -1,4 +1,127 @@
-img{
-    width: 150px;
-    height: 150px;
+/* Variable*/
+* {
+  padding: 0;
 }
+
+/*header*/
+#logo {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+#inputgeneral {
+  align-content: center;
+}
+
+#inputlogo {
+  display: flex;
+  align-items: center;
+}
+#inputlogo label {
+  width: 100%;
+  text-align: center;
+}
+#inputlogo label input {
+  width: 100%;
+  height: 30px;
+  border: none;
+  text-align: center;
+  background-color: #eaeaea;
+}
+
+/*Text header*/
+#text_button_header {
+  text-align: center;
+  background-color: #f6f6f6;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 200px;
+}
+#text_button_header #text_header {
+  width: 100%;
+  text-align: center;
+}
+
+#button_explore_restaurant {
+  border-radius: 30px;
+  height: 40px;
+  background-color: #FF79DA;
+  color: white;
+  border-color: #FF79DA;
+  width: 200px;
+}
+
+/*Fonctionnemen*/
+#fonctionnement {
+  width: 100%;
+}
+#fonctionnement #text_fonctionnement {
+  font-weight: bold;
+}
+.button_fonctionnement {
+  border-radius: 20px;
+  width: 80%;
+  margin-bottom: 15px;
+  background-color: #f6f6f6;
+  height: 60px;
+  border: none;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.button_fonctionnement:hover {
+  background-color: #f5edff;
+}
+
+.fas {
+  padding-right: 10px;
+}
+
+.far {
+  padding-right: 10px;
+}
+
+/*Restaurant*/
+#restaurant {
+  background-color: #f6f6f6;
+  width: 100%;
+}
+
+.restaurant_image_text img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px 10px 0 0;
+}
+
+.description_restaurant {
+  border: solid 2px white;
+  background-color: white;
+  border-radius: 0 0px 10px 10px;
+  box-shadow: 0 0 20px #f6f6f6;
+  margin-bottom: 10px;
+}
+
+/*Footer*/
+footer {
+  background-color: #353535;
+  width: 100%;
+}
+footer img {
+  width: 150px;
+  padding-top: 20px;
+  padding-left: 20px;
+  filter: invert(100%);
+}
+
+nav {
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+nav ul li {
+  color: white;
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

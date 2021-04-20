@@ -1,0 +1,160 @@
+/* Variable*/
+
+$primaire: #9356DC;
+$secondaire: #FF79DA;
+$tertaire: #99E2D0;
+$footer: #353535;
+$text_header: #f6f6f6;
+
+*{
+  padding: 0;
+}
+
+/*header*/
+#logo {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+
+#inputgeneral {
+  align-content: center;
+
+}
+
+#inputlogo {
+  display: flex;
+  align-items: center;
+
+  label {
+    width: 100%;
+    text-align: center;
+
+    input {
+      width: 100%;
+      height: 30px;
+      border: none;
+      text-align: center;
+      background-color: #eaeaea;
+    }
+  }
+}
+
+
+/*Text header*/
+
+
+#text_button_header {
+  text-align: center;
+  background-color: $text_header;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 200px;
+  #text_header {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+#button_explore_restaurant {
+  border-radius: 30px;
+  height: 40px;
+  background-color: $secondaire;
+  color: white;
+  border-color: $secondaire;
+  width: 200px;
+}
+
+
+
+/*Fonctionnemen*/
+#fonctionnement {
+  width: 100%;
+
+  #text_fonctionnement {
+    font-weight: bold;
+    #button_1{
+
+    }
+  }
+
+}
+.button_fonctionnement{
+  border-radius:20px;
+  width:80%;
+  margin-bottom: 15px;
+  background-color: #f6f6f6;
+  height: 60px;
+  border: none;
+  padding-right: 10px;
+padding-left: 10px;
+   &:hover{
+     background-color: #f5edff;
+
+   }
+
+}
+
+.fas {
+  padding-right: 10px;
+}
+.far{
+  padding-right: 10px;
+}
+
+/*Restaurant*/
+#restaurant
+{
+  background-color: #f6f6f6;
+  width: 100%;
+}
+.restaurant_image_text{
+
+  img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+  }
+}
+
+.description_restaurant{
+  border: solid 2px white;
+  background-color: white;
+  border-radius: 0 0px 10px 10px;
+  box-shadow: 0 0 20px #f6f6f6;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+/*Footer*/
+
+footer {
+  background-color: $footer;
+  width: 100%;
+
+  img {
+    width: 150px;
+    padding-top: 20px;
+    padding-left: 20px;
+    filter: invert(100%);
+  }
+}
+
+nav{
+  padding-left: 20px;
+  padding-bottom: 10px;
+
+  ul{
+
+    li{
+      color: white;
+      list-style: none;
+      padding-bottom: 10px;
+    }
+  }
+}
