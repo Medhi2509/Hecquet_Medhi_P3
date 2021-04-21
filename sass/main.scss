@@ -6,9 +6,6 @@ $tertaire: #99E2D0;
 $footer: #353535;
 $text_header: #f6f6f6;
 
-*{
-  padding: 0;
-}
 
 /*header*/
 #logo {
@@ -52,6 +49,7 @@ $text_header: #f6f6f6;
   margin-bottom: 20px;
   width: 100%;
   height: 200px;
+
   #text_header {
     width: 100%;
     text-align: center;
@@ -68,68 +66,70 @@ $text_header: #f6f6f6;
 }
 
 
-
 /*Fonctionnemen*/
 #fonctionnement {
   width: 100%;
 
   #text_fonctionnement {
     font-weight: bold;
-    #button_1{
+
+    #button_1 {
 
     }
   }
 
 }
-.button_fonctionnement{
-  border-radius:20px;
-  width:80%;
+
+.button_fonctionnement {
+  border-radius: 20px;
+  width: 80%;
   margin-bottom: 15px;
   background-color: #f6f6f6;
   height: 60px;
   border: none;
   padding-right: 10px;
-padding-left: 10px;
-   &:hover{
-     background-color: #f5edff;
+  padding-left: 10px;
 
-   }
+  &:hover {
+    background-color: #f5edff;
+
+  }
 
 }
 
 .fas {
   padding-right: 10px;
 }
-.far{
+
+.far {
   padding-right: 10px;
 }
 
 /*Restaurant*/
-#restaurant
-{
+#restaurant {
   background-color: #f6f6f6;
   width: 100%;
 }
-.restaurant_image_text{
 
-  img{
+.restaurant_image_text {
+
+  img {
     width: 100%;
     height: 200px;
     border-radius: 10px 10px 0 0;
+    object-fit: cover;
   }
 }
 
-.description_restaurant{
+.description_restaurant {
   border: solid 2px white;
   background-color: white;
   border-radius: 0 0px 10px 10px;
   box-shadow: 0 0 20px #f6f6f6;
   margin-bottom: 10px;
+  text-decoration: none;
+  color: black;
 }
-
-
-
-
 
 /*Footer*/
 
@@ -145,16 +145,98 @@ footer {
   }
 }
 
-nav{
+nav {
   padding-left: 20px;
   padding-bottom: 10px;
 
-  ul{
+  ul {
 
-    li{
+    li {
       color: white;
       list-style: none;
       padding-bottom: 10px;
     }
   }
+}
+
+
+/*La palette du gout*/
+
+/*head*/
+
+#logo_menu{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  place-content: center;
+  #icon_2{
+
+  }
+}
+
+/*header*/
+.background_image {
+  background-image: url("Hecquet_Medhi_P3/Image/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+
+  img {
+    width: 100%;
+    object-fit: cover;
+    height:100%;
+}
+}
+
+.header_title {
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+/*Menu*/
+
+.package {
+  background-color: #f6f6f6;
+  border-radius: 30px;
+}
+
+.menu {
+  .title_menu {
+    font-size: 15px;
+    border-bottom: 1px solid $tertaire;
+  }
+}
+
+.reference_menu {
+  border-radius: 20px;
+  background-color: white;
+  padding-left: 10px;
+
+  .description_menu {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+  }
+
+  h5 {
+    font-size: 20px;
+    padding-top: 10px;
+
+  }
+}
+
+#button_2{
+  text-align: center;
+#button_commander{
+  border-radius: 30px;
+  height: 40px;
+  background-color: $secondaire;
+  color: white;
+  border-color: $secondaire;
+  width: 200px;
+  margin:20px 0 20px 0 ;
+}
 }
