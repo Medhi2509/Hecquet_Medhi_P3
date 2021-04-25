@@ -1,0 +1,96 @@
+/* Variable*/
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Light";
+}
+
+/*head*/
+#logo_menu {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  place-content: center;
+}
+/*header*/
+.background_image {
+  background-image: url("Hecquet_Medhi_P3/Image/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+}
+.background_image img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.header_title {
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*Menu*/
+.package {
+  background-color: #f6f6f6;
+  border-radius: 30px;
+}
+
+.menu .title_menu {
+  font-size: 15px;
+  border-bottom: 1px solid #99E2D0;
+}
+
+.reference_menu {
+  border-radius: 20px;
+  background-color: white;
+  padding-left: 10px;
+}
+.reference_menu .description_menu {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 50px;
+}
+.reference_menu h5 {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+#button_2 {
+  text-align: center;
+}
+#button_2 #button_commander {
+  border-radius: 30px;
+  height: 40px;
+  background-color: #FF79DA;
+  color: white;
+  border-color: #FF79DA;
+  width: 200px;
+  margin: 20px 0 20px 0;
+}
+
+/*footer*/
+footer {
+  background-color: #353535;
+  width: 100%;
+}
+footer img {
+  width: 150px;
+  padding-top: 20px;
+  padding-left: 20px;
+  filter: invert(100%);
+}
+
+nav {
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+nav ul li {
+  color: white;
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+/*# sourceMappingURL=carte.css.map */

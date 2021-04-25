@@ -5,7 +5,11 @@ $secondaire: #FF79DA;
 $tertaire: #99E2D0;
 $footer: #353535;
 $text_header: #f6f6f6;
-
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Light";
+}
 
 /*header*/
 #logo {
@@ -24,6 +28,7 @@ $text_header: #f6f6f6;
 #inputlogo {
   display: flex;
   align-items: center;
+  background-color: #eaeaea;
 
   label {
     width: 100%;
@@ -160,83 +165,3 @@ nav {
 }
 
 
-/*La palette du gout*/
-
-/*head*/
-
-#logo_menu{
-  margin-top: 15px;
-  margin-bottom: 10px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  place-content: center;
-  #icon_2{
-
-  }
-}
-
-/*header*/
-.background_image {
-  background-image: url("Hecquet_Medhi_P3/Image/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
-
-  img {
-    width: 100%;
-    object-fit: cover;
-    height:100%;
-}
-}
-
-.header_title {
-  font-weight: bold;
-  font-size: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-
-/*Menu*/
-
-.package {
-  background-color: #f6f6f6;
-  border-radius: 30px;
-}
-
-.menu {
-  .title_menu {
-    font-size: 15px;
-    border-bottom: 1px solid $tertaire;
-  }
-}
-
-.reference_menu {
-  border-radius: 20px;
-  background-color: white;
-  padding-left: 10px;
-
-  .description_menu {
-    display: flex;
-    justify-content: space-between;
-    padding-right: 50px;
-  }
-
-  h5 {
-    font-size: 20px;
-    padding-top: 10px;
-
-  }
-}
-
-#button_2{
-  text-align: center;
-#button_commander{
-  border-radius: 30px;
-  height: 40px;
-  background-color: $secondaire;
-  color: white;
-  border-color: $secondaire;
-  width: 200px;
-  margin:20px 0 20px 0 ;
-}
-}
