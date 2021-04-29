@@ -32,6 +32,14 @@
   justify-content: space-between;
 }
 
+.far {
+  padding-right: 2px;
+}
+.far:hover {
+  color: red;
+  text-decoration: none;
+}
+
 /*Menu*/
 .package {
   background-color: #f6f6f6;
@@ -40,6 +48,12 @@
 
 .menu .title_menu {
   font-size: 15px;
+  padding-bottom: 10px;
+  padding-top: 15px;
+}
+.menu .title_menu hr {
+  width: 55px;
+  border: none;
   border-bottom: 1px solid #99E2D0;
 }
 
@@ -47,6 +61,7 @@
   border-radius: 20px;
   background-color: white;
   padding-left: 10px;
+  margin-bottom: 10px;
 }
 .reference_menu .description_menu {
   display: flex;

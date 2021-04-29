@@ -47,6 +47,14 @@ $text_header: #f6f6f6;
   justify-content: space-between;
 }
 
+.far {
+  padding-right: 2px;
+  &:hover{
+   color: red;
+    text-decoration: none;
+  }
+}
+
 
 /*Menu*/
 
@@ -58,14 +66,20 @@ $text_header: #f6f6f6;
 .menu {
   .title_menu {
     font-size: 15px;
-    border-bottom: 1px solid $tertaire;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    hr{
+      width:55px;
+      border: none;
+      border-bottom: 1px solid $tertaire;
+    }
   }
 }
-
 .reference_menu {
   border-radius: 20px;
   background-color: white;
   padding-left: 10px;
+  margin-bottom: 10px;
 
   .description_menu {
     display: flex;

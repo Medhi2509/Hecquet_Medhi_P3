@@ -28,17 +28,17 @@ $text_header: #f6f6f6;
 #inputlogo {
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: #eaeaea;
+  padding-left: 60px;
 
   label {
-    width: 100%;
     text-align: center;
 
     input {
       width: 100%;
       height: 30px;
       border: none;
-      text-align: center;
       background-color: #eaeaea;
     }
   }
@@ -54,6 +54,7 @@ $text_header: #f6f6f6;
   margin-bottom: 20px;
   width: 100%;
   height: 200px;
+  padding-top: 20px;
 
   #text_header {
     width: 100%;
@@ -68,6 +69,7 @@ $text_header: #f6f6f6;
   color: white;
   border-color: $secondaire;
   width: 200px;
+  margin-top: 20px;
 }
 
 
@@ -77,6 +79,8 @@ $text_header: #f6f6f6;
 
   #text_fonctionnement {
     font-weight: bold;
+    padding-left: 10px;
+
 
     #button_1 {
 
@@ -85,18 +89,26 @@ $text_header: #f6f6f6;
 
 }
 
+#all_button{
+  margin-top: 5px;
+  width: 100%;
+  text-align: center;
+}
+
 .button_fonctionnement {
   border-radius: 20px;
-  width: 80%;
+  width: 90%;
   margin-bottom: 15px;
   background-color: #f6f6f6;
   height: 60px;
   border: none;
   padding-right: 10px;
   padding-left: 10px;
+  font-size: 15px;
 
   &:hover {
     background-color: #f5edff;
+    font-weight: bold;
 
   }
 
@@ -109,14 +121,37 @@ $text_header: #f6f6f6;
 .far {
   padding-right: 10px;
 }
+.button_number{
+  float: left;
+  background-color: $primaire;
+  border-radius: 100%;
+  font-size: 20px;
+  width: 20px;
+}
 
 /*Restaurant*/
 #restaurant {
   background-color: #f6f6f6;
   width: 100%;
+  #title_restaurant{
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-weight: bold;
+
+  }
 }
 
+.all_restaurant{
+  width: 90%;
+  padding-left: 18px;
+  padding-bottom: 30px;
+}
+
+
+
 .restaurant_image_text {
+  text-decoration: none;
 
   img {
     width: 100%;
@@ -132,10 +167,19 @@ $text_header: #f6f6f6;
   border-radius: 0 0px 10px 10px;
   box-shadow: 0 0 20px #f6f6f6;
   margin-bottom: 10px;
-  text-decoration: none;
   color: black;
-}
+  height: 2.5rem;
+  padding-left: 5px;
 
+  .description_icon{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+h5{
+  font-size: 15px;
+  font-weight: bold;
+}
 /*Footer*/
 
 footer {
@@ -164,4 +208,7 @@ nav {
   }
 }
 
+@media screen and (max-width: 750px){
+
+}
 

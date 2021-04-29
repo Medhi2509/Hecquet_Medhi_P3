@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="Css/Style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
           integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,6 +36,7 @@
 
     <div id="text_header">
         <h3> Réservez le menu qui<br>vous convient<br></h3>
+        <br>
         <p>Découvrez des restaurants d'exception,<br>sélèctionnés par nos soins.<br></p>
     </div>
 
@@ -52,32 +53,40 @@
         <p>Fonctionnement</p>
     </div>
 
+    <div id="all_button">
+
     <div class="button_1">
-        <button class="button_fonctionnement"> <i class="fas fa-mobile-alt"></i> Choisissez un restaurant</button>
+        <button class="button_fonctionnement"> <p class="button_number"> 1 </p> <i class="fas fa-mobile-alt"></i> Choisissez un restaurant</button>
     </div>
 
     <div class="button_1">
-        <button class="button_fonctionnement"> <i class="far fa-list-ul"></i> Composez votre menu</button>
+        <button class="button_fonctionnement"> <p class="button_number"> 2 </p> <i class="far fa-list-ul"></i> Composez votre menu</button>
     </div>
 
     <div class="button_1">
-        <button class="button_fonctionnement"> <i class="fas fa-store"></i> Dégustez au restaurant</button>
+        <button class="button_fonctionnement">  <p class="button_number"> 3 </p> <i class="fas fa-store"></i>  Dégustez au restaurant</button>
+
     </div>
+
+</div>
 
 </div>
 
 <!-- Restaurant-->
 
 <div id="restaurant">
-    <div>
+    <div id="title_restaurant">
         <p>Restaurants</p>
     </div>
-
+<section class="all_restaurant">
     <a href="La%20palette%20du%20gout.html" class="restaurant_image_text">
         <img src="Image/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="#">
         <div class="description_restaurant">
         <h5>La palette du gout</h5>
-        <p>Ménilmontant</p>
+            <div class="description_icon">
+                <p>Ménilmontant</p>
+            <i class="far fa-heart"></i>
+            </div>
         </div>
     </a>
 
@@ -85,15 +94,21 @@
         <img src="Image/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="#">
         <div class="description_restaurant">
         <h5>La note enchantée</h5>
-        <p>Charonne</p>
+            <div class="description_icon">
+                <p>Charonne</p>
+                <i class="far fa-heart"></i>
+            </div>
         </div>
     </a>
 
     <a href="A%20la%20française.html" class="restaurant_image_text">
         <img src="Image/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="#">
         <div class="description_restaurant">
-        <h5>à la française</h5>
-        <p>Cité Rouge</p>
+        <h5>À la française</h5>
+            <div class="description_icon">
+                <p>Cité Rouge</p>
+                <i class="far fa-heart"></i>
+            </div>
         </div>
     </a>
 
@@ -101,10 +116,13 @@
         <img src="Image/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="#">
         <div class="description_restaurant">
         <h5>Le délice des sens</h5>
-        <p>Folie-Méricourt</p>
+            <div class="description_icon">
+                <p>Folie-Méricourt</p>
+                <i class="far fa-heart"></i>
+            </div>
         </div>
     </a>
-
+</section>
 </div>
 
 <!-- footer-->

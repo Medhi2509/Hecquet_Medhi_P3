@@ -20,17 +20,17 @@
 #inputlogo {
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: #eaeaea;
+  padding-left: 60px;
 }
 #inputlogo label {
-  width: 100%;
   text-align: center;
 }
 #inputlogo label input {
   width: 100%;
   height: 30px;
   border: none;
-  text-align: center;
   background-color: #eaeaea;
 }
 
@@ -41,6 +41,7 @@
   margin-bottom: 20px;
   width: 100%;
   height: 200px;
+  padding-top: 20px;
 }
 #text_button_header #text_header {
   width: 100%;
@@ -54,6 +55,7 @@
   color: white;
   border-color: #FF79DA;
   width: 200px;
+  margin-top: 20px;
 }
 
 /*Fonctionnemen*/
@@ -62,19 +64,28 @@
 }
 #fonctionnement #text_fonctionnement {
   font-weight: bold;
+  padding-left: 10px;
 }
+#all_button {
+  margin-top: 5px;
+  width: 100%;
+  text-align: center;
+}
+
 .button_fonctionnement {
   border-radius: 20px;
-  width: 80%;
+  width: 90%;
   margin-bottom: 15px;
   background-color: #f6f6f6;
   height: 60px;
   border: none;
   padding-right: 10px;
   padding-left: 10px;
+  font-size: 15px;
 }
 .button_fonctionnement:hover {
   background-color: #f5edff;
+  font-weight: bold;
 }
 
 .fas {
@@ -85,12 +96,35 @@
   padding-right: 10px;
 }
 
+.button_number {
+  float: left;
+  background-color: #9356DC;
+  border-radius: 100%;
+  font-size: 20px;
+  width: 20px;
+}
+
 /*Restaurant*/
 #restaurant {
   background-color: #f6f6f6;
   width: 100%;
 }
+#restaurant #title_restaurant {
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  font-weight: bold;
+}
 
+.all_restaurant {
+  width: 90%;
+  padding-left: 18px;
+  padding-bottom: 30px;
+}
+
+.restaurant_image_text {
+  text-decoration: none;
+}
 .restaurant_image_text img {
   width: 100%;
   height: 200px;
@@ -104,8 +138,18 @@
   border-radius: 0 0px 10px 10px;
   box-shadow: 0 0 20px #f6f6f6;
   margin-bottom: 10px;
-  text-decoration: none;
   color: black;
+  height: 2.5rem;
+  padding-left: 5px;
+}
+.description_restaurant .description_icon {
+  display: flex;
+  justify-content: space-between;
+}
+
+h5 {
+  font-size: 15px;
+  font-weight: bold;
 }
 
 /*Footer*/
