@@ -5,10 +5,16 @@ $secondaire: #FF79DA;
 $tertaire: #99E2D0;
 $footer: #353535;
 $text_header: #f6f6f6;
-*{
+
+@font-face {
+  font-family: "Roboto";
+  src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+}
+
+* {
   padding: 0;
   margin: 0;
-  font-family: "Roboto Light";
+  font-family: "Roboto";
 }
 
 /*header*/
@@ -18,7 +24,6 @@ $text_header: #f6f6f6;
   width: 100%;
   text-align: center;
 }
-
 
 #inputgeneral {
   align-content: center;
@@ -79,7 +84,7 @@ $text_header: #f6f6f6;
 
   #text_fonctionnement {
     font-weight: bold;
-    padding-left: 10px;
+    padding-left: 20px;
 
 
     #button_1 {
@@ -89,7 +94,7 @@ $text_header: #f6f6f6;
 
 }
 
-#all_button{
+#all_button {
   margin-top: 5px;
   width: 100%;
   text-align: center;
@@ -121,19 +126,22 @@ $text_header: #f6f6f6;
 .far {
   padding-right: 10px;
 }
-.button_number{
+
+.button_number {
   float: left;
   background-color: $primaire;
   border-radius: 100%;
   font-size: 20px;
   width: 20px;
+  margin-left: -15px;
 }
 
 /*Restaurant*/
 #restaurant {
   background-color: #f6f6f6;
   width: 100%;
-  #title_restaurant{
+
+  #title_restaurant {
     padding-left: 20px;
     padding-top: 30px;
     padding-bottom: 15px;
@@ -142,12 +150,11 @@ $text_header: #f6f6f6;
   }
 }
 
-.all_restaurant{
+.all_restaurant {
   width: 90%;
   padding-left: 18px;
   padding-bottom: 30px;
 }
-
 
 
 .restaurant_image_text {
@@ -171,15 +178,17 @@ $text_header: #f6f6f6;
   height: 2.5rem;
   padding-left: 5px;
 
-  .description_icon{
+  .description_icon {
     display: flex;
     justify-content: space-between;
   }
 }
-h5{
+
+h5 {
   font-size: 15px;
   font-weight: bold;
 }
+
 /*Footer*/
 
 footer {
@@ -208,7 +217,42 @@ nav {
   }
 }
 
-@media screen and (max-width: 750px){
+@media screen and (min-width: 750px) {
+
+ #text_fonctionnement{
+   font-size: 20px;
+ }
+  #all_button {
+    width: 100%;
+    display: flex;
+
+  }
+  .button_1 {
+    width: 33.3%
+
+  }
+
+  #title_restaurant{
+    font-size: 20px;
+  }
+  #restaurant {
+    width: 100%;
+
+    .all_restaurant {
+      padding: 0;
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      place-items: center;
+
+    }
+  }
+
+
+  .restaurant_image_text{
+    width: 90%;
+  }
+
 
 }
 
