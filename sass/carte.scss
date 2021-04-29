@@ -86,7 +86,7 @@ $text_header: #f6f6f6;
   background-color: white;
   padding-left: 12px;
   margin-bottom: 10px;
-
+}
   .description_menu {
     display: flex;
     justify-content: space-between;
@@ -190,131 +190,9 @@ nav {
     position: relative;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 
 
-@media screen and (min-width: 750px) {
-  .background_image{
-    img{
-      height: 500px;
-    }
-  }
-
-  .package{
-    border-radius: 0 30px;
-    height: 650px;
-  }
-
-.header_title{
-  width: 100%;
-  place-content: center;
-}
-
-  .far{
-    position: absolute;
-    right: 3rem;
-  }
-
-  h3{
-    font-size: 25px;
-  }
-
- .all_menu{
-   display: grid;
-   grid-template-columns: repeat(3,1fr);
-   grid-column-gap: 20px;
- }
-
-  h4{
-    font-size: 20px;
-  }
-
-  .reference_menu{
-    margin-top: 30px;
-    height: 20%;
-  }
-  .description_menu{
-    position: relative;
-    padding-top: 10px;
-  }
-
-  #button_2{
-    margin-top: 75px;
-    position: relative;
-  }
-
-}
 
 
-
-@media screen and (min-width: 750px) {
-
-
-  .background_image{
-    img{
-      height: 500px;
-    }
-  }
-
-  .package{
-    border-radius: 0 30px;
-    height: 650px;
-  }
-
-.header_title{
-  width: 100%;
-  place-content: center;
-}
-
-  .far{
-    position: absolute;
-    right: 3rem;
-  }
-
-  h3{
-    font-size: 25px;
-  }
-
- .all_menu{
-   display: grid;
-   grid-template-columns: repeat(3,1fr);
-   grid-column-gap: 20px;
- }
-
-  h4{
-    font-size: 20px;
-  }
-
-  .reference_menu{
-    margin-top: 30px;
-    height: 20%;
-  }
-  .description_menu{
-    position: relative;
-    padding-top: 10px;
-  }
-
-  #button_2{
-    margin-top: 75px;
-    position: relative;
-  }
-
-}
-}
