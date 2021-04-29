@@ -1,8 +1,12 @@
 /* Variable*/
+@font-face {
+  font-family: "Roboto";
+  src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+}
 * {
   padding: 0;
   margin: 0;
-  font-family: "Roboto Light";
+  font-family: "Roboto";
 }
 
 /*header*/
@@ -64,7 +68,7 @@
 }
 #fonctionnement #text_fonctionnement {
   font-weight: bold;
-  padding-left: 10px;
+  padding-left: 20px;
 }
 #all_button {
   margin-top: 5px;
@@ -102,6 +106,7 @@
   border-radius: 100%;
   font-size: 20px;
   width: 20px;
+  margin-left: -15px;
 }
 
 /*Restaurant*/
@@ -172,6 +177,40 @@ nav ul li {
   color: white;
   list-style: none;
   padding-bottom: 10px;
+}
+
+@media screen and (min-width: 750px) {
+  #text_fonctionnement {
+    font-size: 20px;
+  }
+
+  #all_button {
+    width: 100%;
+    display: flex;
+  }
+
+  .button_1 {
+    width: 33.3%;
+  }
+
+  #title_restaurant {
+    font-size: 20px;
+  }
+
+  #restaurant {
+    width: 100%;
+  }
+  #restaurant .all_restaurant {
+    padding: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+  }
+
+  .restaurant_image_text {
+    width: 90%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
