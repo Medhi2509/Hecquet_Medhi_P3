@@ -150,10 +150,9 @@ h5 {
   padding-top: 10px;
 }
 
-.reference_menu:hover .check_icon {
-  transform: translateX(0px);
-}
-
+/* .reference_menu:hover .check_icon{
+   transform: translateX(0px);
+ }*/
 .all_menu .menu .check_icon {
   position: absolute;
   top: 0;
@@ -166,10 +165,6 @@ h5 {
   font-size: 1rem;
   font-weight: 300;
   transition: width 400ms, text-overflow 400ms;
-}
-
-.reference_menu:hover .prix {
-  margin-right: 60px;
 }
 
 .prix {

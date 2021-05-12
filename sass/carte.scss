@@ -125,9 +125,9 @@ $text_header: #f6f6f6;
   }
 
 
-  .reference_menu:hover .check_icon{
+ /* .reference_menu:hover .check_icon{
     transform: translateX(0px);
-  }
+  }*/
 .all_menu .menu .check_icon{
   position: absolute;
   top: 0;
@@ -142,10 +142,6 @@ $text_header: #f6f6f6;
   transition: width 400ms, text-overflow 400ms;
 }
 
-
-.reference_menu:hover .prix{
-  margin-right: 60px;
-}
 
 .prix{
   font-size: 1rem;
