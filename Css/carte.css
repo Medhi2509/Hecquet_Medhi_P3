@@ -1,17 +1,264 @@
-/* Error: expected "}".
- *     ,
- * 317 | }
- *     |  ^
- *     '
- *   Hecquet_Medhi_P3\sass\carte.scss 317:2  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "}".\a     \2577 \a 317 \2502  }\a     \2502   ^\a     \2575 \a   Hecquet_Medhi_P3\\sass\\carte.scss 317:2  root stylesheet';
+/* Variable*/
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Light";
 }
+
+/*head*/
+#logo_menu {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  place-content: center;
+  text-decoration: none;
+}
+
+#icon_2 {
+  position: absolute;
+  left: 1rem;
+}
+
+/*header*/
+.background_image {
+  background-image: url("Hecquet_Medhi_P3/Image/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+}
+.background_image img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.header_title {
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+
+.far {
+  padding-right: 2px;
+}
+.far:hover {
+  color: red;
+  text-decoration: none;
+}
+
+/*Menu*/
+.package {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  transform: translateY(-50px);
+  border-radius: 42px 42px 0 0;
+  background-color: #F6F6F6;
+}
+
+.menu .title_menu {
+  font-size: 15px;
+  padding-bottom: 10px;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+.menu .title_menu hr {
+  width: 55px;
+  border: none;
+  border-bottom: 1px solid #99E2D0;
+}
+
+@keyframes showItems {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.reference_menu {
+  border-radius: 20px;
+  background-color: white;
+  padding-left: 12px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+.item-1 {
+  animation: showItems 1s;
+  animation-delay: 0.1s;
+}
+
+.item-2 {
+  animation: showItems 1s;
+  animation-delay: 0.2s;
+}
+
+.item-3 {
+  animation: showItems 1s;
+  animation-delay: 0.3s;
+}
+
+.item-4 {
+  animation: showItems 1s;
+  animation-delay: 0.4s;
+}
+
+.item-5 {
+  animation: showItems 1s;
+  animation-delay: 0.5s;
+}
+
+.item-6 {
+  animation: showItems 1s;
+  animation-delay: 0.6s;
+}
+
+.item-7 {
+  animation: showItems 1s;
+  animation-delay: 0.7s;
+}
+
+.item-8 {
+  animation: showItems 1s;
+  animation-delay: 0.8s;
+}
+
+.item-9 {
+  animation: showItems 1s;
+  animation-delay: 0.9s;
+}
+
+.item-10 {
+  animation: showItems 1s;
+  animation-delay: 1s;
+}
+
+.description_menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  transition: width 400ms, text-overflow 400ms, margin-right 400ms, overflow 400ms;
+  padding-right: 20px;
+}
+
+h5 {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.reference_menu:hover .check_icon {
+  transform: translateX(0px);
+}
+
+.all_menu .menu .check_icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  transition-duration: 400ms;
+}
+
+.description {
+  font-size: 1rem;
+  font-weight: 300;
+  transition: width 400ms, text-overflow 400ms;
+}
+
+.reference_menu:hover .prix {
+  margin-right: 60px;
+}
+
+.prix {
+  font-size: 1rem;
+  transition: margin-right 400ms;
+}
+
+#button_2 {
+  text-align: center;
+}
+#button_2 #button_commander {
+  border-radius: 30px;
+  height: 40px;
+  background-color: #FF79DA;
+  color: white;
+  border-color: #FF79DA;
+  width: 200px;
+  margin: 20px 0 20px 0;
+}
+
+/*footer*/
+footer {
+  background-color: #353535;
+  width: 100%;
+}
+footer img {
+  width: 150px;
+  padding-top: 20px;
+  padding-left: 20px;
+  filter: invert(100%);
+}
+
+nav {
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+nav ul li {
+  color: white;
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+@media screen and (min-width: 750px) {
+  .background_image img {
+    height: 500px;
+  }
+
+  .package {
+    height: 650px;
+  }
+
+  .header_title {
+    width: 100%;
+    place-content: center;
+  }
+
+  .far {
+    position: absolute;
+    right: 3rem;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  .all_menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  .reference_menu {
+    margin-top: 30px;
+    height: 20%;
+  }
+
+  .description_menu {
+    position: relative;
+    padding-top: 10px;
+  }
+
+  #button_2 {
+    margin-top: 75px;
+    position: relative;
+  }
+}
+
+/*# sourceMappingURL=carte.css.map */
