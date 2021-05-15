@@ -78,15 +78,6 @@
     transform: scale(1);
   }
 }
-.reference_menu {
-  border-radius: 20px;
-  background-color: white;
-  padding-left: 12px;
-  padding-bottom: 5px;
-  margin-bottom: 10px;
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
-}
-
 .item-1 {
   animation: showItems 1s;
   animation-delay: 0.1s;
@@ -137,41 +128,68 @@
   animation-delay: 1s;
 }
 
-.description_menu {
+/*.reference_menu {
+  border-radius: 20px;
+  background-color: white;
+  padding-left: 12px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 5px 10px 0 rgb(0 0 0 / 15%);
+}*/
+/*.description_menu {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   transition: width 400ms, text-overflow 400ms, margin-right 400ms, overflow 400ms;
   padding-right: 20px;
+  }*/
+.item {
+  margin: 5px;
+  height: 60px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  overflow: hidden;
 }
 
-h5 {
-  font-size: 20px;
-  padding-top: 10px;
+.info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
 }
 
-/* .reference_menu:hover .check_icon{
-   transform: translateX(0px);
- }*/
-.all_menu .menu .check_icon {
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 100%;
-  transition-duration: 400ms;
+.info:hover {
+  animation: fade 0.84s forwards;
 }
 
-.description {
-  font-size: 1rem;
-  font-weight: 300;
-  transition: width 400ms, text-overflow 400ms;
+.check {
+  background-color: #99E2D0;
+  width: 20%;
+  margin-right: -20%;
+  text-align: center;
+  transition: 0.5s;
 }
 
-.prix {
-  font-size: 1rem;
-  transition: margin-right 400ms;
+i {
+  font-size: 30px;
+  color: white;
+  transition: transform 0.84s;
+  margin-top: 15px;
 }
 
+.info:hover ~ .check i {
+  transform: rotate(360deg);
+}
+
+@keyframes fade {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 78%;
+  }
+}
 #button_2 {
   text-align: center;
 }
@@ -240,12 +258,12 @@ nav ul li {
     font-size: 20px;
   }
 
-  .reference_menu {
+  .info {
     margin-top: 30px;
     height: 20%;
   }
 
-  .description_menu {
+  .text {
     position: relative;
     padding-top: 10px;
   }
