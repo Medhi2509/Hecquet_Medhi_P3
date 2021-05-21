@@ -6,19 +6,14 @@ $tertaire: #99E2D0;
 $footer: #353535;
 $text_header: #f6f6f6;
 
-@font-face {
-  font-family: "Roboto";
-  src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
-}
-
 * {
   padding: 0;
   margin: 0;
-  font-family: "Roboto";
+  font-family: Roboto;
 }
 
 
-#loader{
+#loader {
   position: absolute;
   background: White;
   width: 100%;
@@ -26,10 +21,10 @@ $text_header: #f6f6f6;
   /* keyframe, animation duration, keep final state */
   animation: initialLoader forwards;
   /* Time before animation */
-  animation-delay: 5s;
+  animation-delay: 2.1s;
 }
 
-#logo_loader{
+#img_loader {
   /* center image */
   top: 0;
   left: 0;

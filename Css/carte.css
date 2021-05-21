@@ -1,12 +1,8 @@
 /* Variable*/
-@font-face {
-  font-family: Roboto;
-  src: url("Font/Roboto");
-}
 * {
   padding: 0;
   margin: 0;
-  font-family: Roboto;
+  font-family: " Roboto";
 }
 
 /*head*/

@@ -6,14 +6,11 @@ $secondaire: #FF79DA;
 $tertaire: #99E2D0;
 $footer: #353535;
 $text_header: #f6f6f6;
-@font-face {
-  font-family: Roboto;
-  src: url("Font/Roboto");
-}
+
 *{
   padding: 0;
   margin: 0;
-  font-family: Roboto;
+  font-family:" Roboto";
 
 }
 
