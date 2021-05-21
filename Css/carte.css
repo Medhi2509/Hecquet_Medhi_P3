@@ -1,8 +1,12 @@
 /* Variable*/
+@font-face {
+  font-family: Roboto;
+  src: url("Font/Roboto");
+}
 * {
   padding: 0;
   margin: 0;
-  font-family: "Roboto Light";
+  font-family: Roboto;
 }
 
 /*head*/
@@ -128,21 +132,6 @@
   animation-delay: 1s;
 }
 
-/*.reference_menu {
-  border-radius: 20px;
-  background-color: white;
-  padding-left: 12px;
-  padding-bottom: 5px;
-  margin-bottom: 10px;
-  box-shadow: 0 5px 10px 0 rgb(0 0 0 / 15%);
-}*/
-/*.description_menu {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  transition: width 400ms, text-overflow 400ms, margin-right 400ms, overflow 400ms;
-  padding-right: 20px;
-  }*/
 .item {
   margin: 5px;
   height: 60px;
@@ -258,14 +247,16 @@ nav ul li {
     font-size: 20px;
   }
 
+  .item {
+    margin-bottom: 15px;
+  }
+
   .info {
-    margin-top: 30px;
     height: 20%;
   }
 
   .text {
     position: relative;
-    padding-top: 10px;
   }
 
   #button_2 {

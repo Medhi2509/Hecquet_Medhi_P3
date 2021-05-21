@@ -11,16 +11,16 @@
 
 #loader {
   position: absolute;
-  background: black;
+  background: White;
   width: 100%;
-  height: 1000px;
+  height: 100vh;
   /* keyframe, animation duration, keep final state */
   animation: initialLoader forwards;
   /* Time before animation */
-  animation-delay: 2.1s;
+  animation-delay: 5s;
 }
 
-#img_loader {
+#logo_loader {
   /* center image */
   top: 0;
   left: 0;
