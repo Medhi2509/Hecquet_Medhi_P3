@@ -2,7 +2,12 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: " Roboto";
+  font-family: Roboto;
+}
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 /*head*/
@@ -148,6 +153,10 @@
   animation: fade 0.84s forwards;
 }
 
+.price {
+  font-weight: bold;
+}
+
 .check {
   background-color: #99E2D0;
   width: 20%;
@@ -156,7 +165,7 @@
   transition: 0.5s;
 }
 
-i {
+.check i {
   font-size: 30px;
   color: white;
   transition: transform 0.84s;
@@ -192,6 +201,7 @@ i {
 footer {
   background-color: #353535;
   width: 100%;
+  transform: translateY(50px);
 }
 footer img {
   width: 150px;
