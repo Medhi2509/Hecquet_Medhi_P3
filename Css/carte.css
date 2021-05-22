@@ -24,6 +24,7 @@ body {
 #icon_2 {
   position: absolute;
   left: 1rem;
+  text-decoration: none;
 }
 
 /*header*/

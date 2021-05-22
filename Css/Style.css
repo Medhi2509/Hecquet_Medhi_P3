@@ -10,10 +10,8 @@
   background: White;
   width: 100%;
   height: 100vh;
-  /* keyframe, animation duration, keep final state */
   animation: initialLoader forwards;
-  /* Time before animation */
-  animation-delay: 2.1s;
+  animation-delay: 3.1s;
 }
 
 #img_loader {
@@ -26,7 +24,7 @@
   position: absolute;
   /* max image width */
   max-width: 200px;
-  -webkit-animation: rotation 0.42s infinite;
+  -webkit-animation: rotation 1s infinite linear;
 }
 
 @keyframes initialLoader {
@@ -176,7 +174,7 @@
 .description_restaurant {
   border: solid 2px white;
   background-color: white;
-  border-radius: 0 0px 10px 10px;
+  border-radius: 0 10px 10px;
   box-shadow: 0 0 20px #f6f6f6;
   margin-bottom: 10px;
   color: black;
