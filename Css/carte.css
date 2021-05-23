@@ -46,14 +46,29 @@ body {
   padding: 10px 10px;
 }
 
-.far {
-  padding-right: 2px;
+.heart {
+  font-size: 25px;
 }
-.far:hover {
-  color: red;
-  text-decoration: none;
+.heart:hover {
+  animation: heart 0.9s ease-in-out;
+  background: linear-gradient(to left, #9356DC, #FF79DA);
+  background: -webkit-linear-gradient(to left, #9356DC, #FF79DA);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
 }
 
+@keyframes heart {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 /*Menu*/
 .package {
   position: relative;
