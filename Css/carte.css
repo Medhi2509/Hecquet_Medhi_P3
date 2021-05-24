@@ -236,6 +236,11 @@ nav ul li {
   padding-bottom: 10px;
 }
 
+.courriel {
+  text-decoration: none;
+  color: white;
+}
+
 @media screen and (min-width: 750px) {
   .background_image img {
     height: 500px;
