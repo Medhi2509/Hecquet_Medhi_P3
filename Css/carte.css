@@ -3,11 +3,16 @@
   padding: 0;
   margin: 0;
   font-family: Roboto;
+  font-weight: bold;
 }
 
 body {
   max-width: 100%;
   overflow-x: hidden;
+}
+
+.bold {
+  font-weight: b;
 }
 
 /*head*/
@@ -43,7 +48,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 10px;
+  padding: 25px 30px;
 }
 
 .heart {
@@ -80,15 +85,15 @@ body {
 }
 
 .menu .title_menu {
-  font-size: 15px;
+  font-size: 18px;
   padding-bottom: 10px;
   padding-top: 15px;
   padding-left: 10px;
 }
 .menu .title_menu hr {
-  width: 55px;
+  width: 25px;
   border: none;
-  border-bottom: 1px solid #99E2D0;
+  border-bottom: 2px solid #99E2D0;
 }
 
 @keyframes showItems {
@@ -150,12 +155,12 @@ body {
 }
 
 .item {
-  margin: 5px;
   height: 60px;
   background-color: white;
   border-radius: 10px;
   display: flex;
   overflow: hidden;
+  margin-bottom: 15px;
 }
 
 .info {
@@ -204,12 +209,12 @@ body {
   text-align: center;
 }
 #button_2 #button_commander {
-  border-radius: 30px;
+  border-radius: 50px;
   height: 40px;
-  background-color: #FF79DA;
+  background: linear-gradient(to left, #9356DC, #FF79DA);
   color: white;
-  border-color: #FF79DA;
-  width: 200px;
+  border-color: #9356DC #FF79DA;
+  width: 170px;
   margin: 20px 0 20px 0;
 }
 
@@ -229,6 +234,8 @@ footer img {
 nav {
   padding-left: 20px;
   padding-bottom: 10px;
+  padding-top: 15px;
+  font-size: 15px;
 }
 nav ul li {
   color: white;

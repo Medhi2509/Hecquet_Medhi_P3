@@ -11,11 +11,16 @@ $text_header: #f6f6f6;
   padding: 0;
   margin: 0;
   font-family:Roboto;
+  font-weight: bold;
 
 }
 body{
   max-width: 100%;
   overflow-x: hidden;
+}
+
+.bold{
+  font-weight: b;
 }
 
 /*head*/
@@ -54,7 +59,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 10px;
+  padding: 25px 30px;
 }
 
 .heart {
@@ -95,14 +100,14 @@ body{
 
 .menu {
   .title_menu {
-    font-size: 15px;
+    font-size: 18px;
     padding-bottom: 10px;
     padding-top: 15px;
     padding-left: 10px;
     hr{
-      width:55px;
+      width: 25px;
       border: none;
-      border-bottom: 1px solid $tertaire;
+      border-bottom: 2px solid $tertaire;
     }
   }
 }
@@ -124,12 +129,12 @@ body{
 }
 
 .item {
-  margin: 5px;
   height: 60px;
   background-color: white;
   border-radius: 10px;
   display: flex;
   overflow: hidden;
+  margin-bottom: 15px;
 }
 
 .info {
@@ -179,12 +184,12 @@ body{
 #button_2{
   text-align: center;
   #button_commander{
-    border-radius: 30px;
+    border-radius: 50px;
     height: 40px;
-    background-color: $secondaire;
+    background:linear-gradient(to left, $primaire, $secondaire);
     color: white;
-    border-color: $secondaire;
-    width: 200px;
+    border-color: $primaire $secondaire;
+    width: 170px;
     margin:20px 0 20px 0 ;
   }
 }
@@ -205,6 +210,8 @@ footer {
 nav {
   padding-left: 20px;
   padding-bottom: 10px;
+  padding-top: 15px;
+  font-size: 15px;
 
   ul {
 
