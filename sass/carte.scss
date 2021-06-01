@@ -99,13 +99,15 @@ body{
 
 
 .menu {
+  width: 90%;
+  padding-left: 15px;
+
   .title_menu {
     font-size: 18px;
     padding-bottom: 10px;
     padding-top: 15px;
-    padding-left: 10px;
     hr{
-      width: 25px;
+      width: 36px;
       border: none;
       border-bottom: 2px solid $tertaire;
     }
@@ -147,9 +149,11 @@ body{
 .info:hover {
   animation: fade .84s forwards;
 }
+.te
 
 .price{
   font-weight: bold;
+  padding-top: 25px;
 }
 
 .check {

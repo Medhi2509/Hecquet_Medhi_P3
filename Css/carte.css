@@ -84,14 +84,17 @@ body {
   background-color: #F6F6F6;
 }
 
+.menu {
+  width: 90%;
+  padding-left: 15px;
+}
 .menu .title_menu {
   font-size: 18px;
   padding-bottom: 10px;
   padding-top: 15px;
-  padding-left: 10px;
 }
 .menu .title_menu hr {
-  width: 25px;
+  width: 36px;
   border: none;
   border-bottom: 2px solid #99E2D0;
 }
@@ -174,8 +177,9 @@ body {
   animation: fade 0.84s forwards;
 }
 
-.price {
+.te .price {
   font-weight: bold;
+  padding-top: 25px;
 }
 
 .check {
