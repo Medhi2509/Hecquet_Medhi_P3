@@ -10,9 +10,7 @@ $text_header: #f6f6f6;
 *{
   padding: 0;
   margin: 0;
-  font-family:Roboto;
-  font-weight: bold;
-
+  font-family: 'Roboto', sans-serif;
 }
 body{
   max-width: 100%;
@@ -20,7 +18,7 @@ body{
 }
 
 .bold{
-  font-weight: b;
+  font-weight: bold;
 }
 
 /*head*/
@@ -149,12 +147,11 @@ body{
 .info:hover {
   animation: fade .84s forwards;
 }
-.te
 
 .price{
   font-weight: bold;
   padding-top: 25px;
-}
+  }
 
 .check {
   background-color: #99E2D0;
@@ -190,7 +187,7 @@ body{
   #button_commander{
     border-radius: 50px;
     height: 40px;
-    background:linear-gradient(to left, $primaire, $secondaire);
+    background: linear-gradient(175deg, #FF79DA 10%, #9356DC 95%);
     color: white;
     border-color: $primaire $secondaire;
     width: 170px;
@@ -258,6 +255,7 @@ nav {
 
   h3{
     font-size: 25px;
+    font-family: 'Shrikhand', cursive;
   }
 
  .all_menu{
@@ -283,6 +281,9 @@ nav {
   #button_2{
     margin-top: 75px;
     position: relative;
+  }
+  .price{
+    font-weight: bold;
   }
 
 }

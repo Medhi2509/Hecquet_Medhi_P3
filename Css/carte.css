@@ -2,8 +2,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: Roboto;
-  font-weight: bold;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -12,7 +11,7 @@ body {
 }
 
 .bold {
-  font-weight: b;
+  font-weight: bold;
 }
 
 /*head*/
@@ -177,7 +176,7 @@ body {
   animation: fade 0.84s forwards;
 }
 
-.te .price {
+.price {
   font-weight: bold;
   padding-top: 25px;
 }
@@ -215,7 +214,7 @@ body {
 #button_2 #button_commander {
   border-radius: 50px;
   height: 40px;
-  background: linear-gradient(to left, #9356DC, #FF79DA);
+  background: linear-gradient(175deg, #FF79DA 10%, #9356DC 95%);
   color: white;
   border-color: #9356DC #FF79DA;
   width: 170px;
@@ -273,6 +272,7 @@ nav ul li {
 
   h3 {
     font-size: 25px;
+    font-family: "Shrikhand", cursive;
   }
 
   .all_menu {
@@ -300,6 +300,10 @@ nav ul li {
   #button_2 {
     margin-top: 75px;
     position: relative;
+  }
+
+  .price {
+    font-weight: bold;
   }
 }
 

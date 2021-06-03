@@ -2,7 +2,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
 }
 
 /*Loader*/
@@ -94,14 +94,14 @@
 #button_explore_restaurant {
   border-radius: 30px;
   height: 40px;
-  background: linear-gradient(to left, #9356DC, #FF79DA);
+  background: linear-gradient(175deg, #FF79DA 10%, #9356DC 95%);
   color: white;
   border-color: #FF79DA;
   width: 200px;
   margin-top: 20px;
 }
 
-/*Fonctionnemen*/
+/*Fonctionnement*/
 #fonctionnement {
   width: 100%;
 }
