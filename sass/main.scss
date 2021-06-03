@@ -11,6 +11,12 @@ $text_header: #f6f6f6;
   margin: 0;
   font-family: Roboto,sans-serif;
 }
+.bold{
+  font-weight: bold;
+}
+#bold{
+  font-weight: bold;
+}
 
 /*Loader*/
 #loader {
@@ -215,7 +221,7 @@ $text_header: #f6f6f6;
   background-color: white;
   border-radius: 0 10px 10px;
   box-shadow: 0 0 20px #f6f6f6;
-  margin-bottom: 10px;
+  margin-bottom: 35px;
   color: black;
   height: 2.5rem;
   padding-left: 5px;
@@ -293,6 +299,12 @@ nav {
       place-items: center;
 
     }
+  }
+  .menu{
+    height: 100%;
+  }
+  .item{
+    margin-bottom: 30px;
   }
 
 

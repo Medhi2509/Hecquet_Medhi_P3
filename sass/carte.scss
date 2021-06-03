@@ -20,6 +20,9 @@ body{
 .bold{
   font-weight: bold;
 }
+h4{
+  font-weight: inherit;
+}
 
 /*head*/
 
@@ -135,22 +138,30 @@ body{
   display: flex;
   overflow: hidden;
   margin-bottom: 15px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.05);
 }
 
 .info {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 5px;
+  padding: 5px 20px;
 }
 
 .info:hover {
   animation: fade .84s forwards;
 }
 
+.ellipsis{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+  white-space: nowrap;
+}
+
 .price{
   font-weight: bold;
-  padding-top: 25px;
+  padding-top: 18px;
   }
 
 .check {
@@ -284,6 +295,11 @@ nav {
   }
   .price{
     font-weight: bold;
+  }
+  .medhi{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 150px;
   }
 
 }
