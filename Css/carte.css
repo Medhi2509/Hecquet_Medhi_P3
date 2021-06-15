@@ -8,6 +8,7 @@
 body {
   max-width: 100%;
   overflow-x: hidden;
+  background-color: #F6F6F6;
 }
 
 .bold {
@@ -174,7 +175,7 @@ h4 {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 5px 20px;
+  padding: 5px 10px;
 }
 
 .info:hover {
@@ -284,7 +285,7 @@ nav ul li {
 
   h3 {
     font-size: 25px;
-    font-family: "Shrikhand", cursive;
+    font-family: Roboto, sans-serif;
   }
 
   .all_menu {
@@ -297,8 +298,13 @@ nav ul li {
     font-size: 20px;
   }
 
-  .item {
+  hr {
     margin-bottom: 15px;
+  }
+
+  .item {
+    margin-bottom: 35px;
+    height: 20%;
   }
 
   .info {
@@ -307,6 +313,7 @@ nav ul li {
 
   .text {
     position: relative;
+    font-size: 20px;
   }
 
   #button_2 {
@@ -315,13 +322,12 @@ nav ul li {
   }
 
   .price {
-    font-weight: bold;
+    margin-top: 5px;
+    font-size: 20px;
   }
 
-  .medhi {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    width: 150px;
+  .check i {
+    margin-top: 25px;
   }
 }
 
