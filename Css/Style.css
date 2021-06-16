@@ -32,14 +32,12 @@
   }
 }
 .loading {
-  /* Center loader */
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   margin: auto;
   position: absolute;
-  /*create loader*/
   border: 20px solid #9356DC;
   border-radius: 50%;
   border-top: 20px solid #3498db;
@@ -138,6 +136,9 @@
   background-color: #f5edff;
   font-weight: bold;
 }
+.button_fonctionnement:hover .fas:hover {
+  color: #9356DC;
+}
 
 .fas {
   padding-right: 10px;
@@ -145,6 +146,9 @@
 
 .far {
   padding-right: 10px;
+}
+.far:hover {
+  color: #9356DC;
 }
 
 .button_number {
@@ -187,6 +191,18 @@
   height: 200px;
   border-radius: 10px 10px 0 0;
   object-fit: cover;
+}
+
+.badge_nouveau {
+  background-color: #99e2d0;
+  color: #1b6150;
+  padding: 5px;
+  border-radius: 0.125rem;
+  right: 0.75rem;
+  float: right;
+  position: absolute;
+  margin-right: 19px;
+  margin-top: 10px;
 }
 
 .description_restaurant {
@@ -275,6 +291,18 @@ nav ul li {
 
   .restaurant_image_text {
     width: 90%;
+  }
+
+  .badge_nouveau {
+    background-color: #99e2d0;
+    color: #1b6150;
+    padding: 5px;
+    border-radius: 0.125rem;
+    right: 0.75rem;
+    float: right;
+    position: relative;
+    margin-right: 15px;
+    margin-top: -189px;
   }
 }
 

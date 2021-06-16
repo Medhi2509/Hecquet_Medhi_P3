@@ -37,14 +37,12 @@ $text_header: #f6f6f6;
 }
 
 .loading {
-  /* Center loader */
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   margin: auto;
   position: absolute;
-  /*create loader*/
   border: 20px solid $primaire;
   border-radius: 50%;
   border-top: 20px solid #3498db;
@@ -158,10 +156,13 @@ $text_header: #f6f6f6;
   &:hover {
     background-color: #f5edff;
     font-weight: bold;
-
+    .fas {
+      &:hover{
+        color: $primaire;
+      }
+      }
+    }
   }
-
-}
 
 .fas {
   padding-right: 10px;
@@ -169,6 +170,9 @@ $text_header: #f6f6f6;
 
 .far {
   padding-right: 10px;
+  &:hover{
+    color: $primaire;
+  }
 }
 
 .button_number {
@@ -214,6 +218,18 @@ $text_header: #f6f6f6;
     border-radius: 10px 10px 0 0;
     object-fit: cover;
   }
+}
+
+.badge_nouveau{
+  background-color: #99e2d0;
+  color: #1b6150;
+  padding: 5px;
+  border-radius: .125rem;
+  right: .75rem;
+  float: right;
+  position: absolute;
+  margin-right: 19px;
+  margin-top: 10px;
 }
 
 .description_restaurant {
@@ -310,6 +326,18 @@ nav {
 
   .restaurant_image_text{
     width: 90%;
+  }
+
+  .badge_nouveau{
+    background-color: #99e2d0;
+    color: #1b6150;
+    padding: 5px;
+    border-radius: .125rem;
+    right: .75rem;
+    float: right;
+    position: relative;
+    margin-right: 15px;
+    margin-top: -189px;
   }
 
 

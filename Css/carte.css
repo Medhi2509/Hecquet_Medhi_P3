@@ -19,6 +19,10 @@ h4 {
   font-weight: inherit;
 }
 
+h3 {
+  font-family: "Shrikhand", cursive;
+}
+
 /*head*/
 #logo_menu {
   margin-top: 15px;
@@ -198,7 +202,6 @@ h4 {
   background-color: #99E2D0;
   width: 20%;
   margin-right: -20%;
-  text-align: center;
   transition: 0.5s;
 }
 
@@ -207,6 +210,7 @@ h4 {
   color: white;
   transition: transform 0.84s;
   margin-top: 15px;
+  margin-left: 13px;
 }
 
 .info:hover ~ .check i {
