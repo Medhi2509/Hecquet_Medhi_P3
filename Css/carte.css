@@ -289,7 +289,6 @@ nav ul li {
 
   h3 {
     font-size: 25px;
-    font-family: Roboto, sans-serif;
   }
 
   .all_menu {
@@ -331,7 +330,8 @@ nav ul li {
   }
 
   .check i {
-    margin-top: 25px;
+    margin-left: 27%;
+    font-size: 40px;
   }
 }
 

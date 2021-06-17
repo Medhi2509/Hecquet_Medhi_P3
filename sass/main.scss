@@ -25,6 +25,7 @@ $text_header: #f6f6f6;
   width: 100%;
   height: 105vh;
   animation: initialLoader forwards;
+  z-index: 1;
   animation-delay: 2.1s;
 }
 @keyframes initialLoader {
