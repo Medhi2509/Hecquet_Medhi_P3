@@ -21,7 +21,7 @@
   height: 105vh;
   animation: initialLoader forwards;
   z-index: 1;
-  animation-delay: 2.1s;
+  animation-delay: 0.5s;
 }
 
 @keyframes initialLoader {
@@ -44,7 +44,7 @@
   border-top: 20px solid #3498db;
   width: 200px;
   height: 200px;
-  animation: loader 2s linear infinite;
+  animation: loader 0.5s linear infinite;
 }
 
 @keyframes loader {
@@ -136,8 +136,9 @@
 .button_fonctionnement:hover {
   background-color: #f5edff;
   font-weight: bold;
+  color: black;
 }
-.button_fonctionnement:hover .fas:hover {
+.button_fonctionnement:hover :not(.color-number) {
   color: #9356DC;
 }
 
@@ -147,9 +148,6 @@
 
 .far {
   padding-right: 10px;
-}
-.far:hover {
-  color: #9356DC;
 }
 
 .button_number {

@@ -20,6 +20,11 @@ body{
 
 .bold{
   font-weight: bold;
+  margin:0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+
 }
 h4{
   font-weight: inherit;
@@ -156,17 +161,25 @@ h3{
 .info:hover {
   animation: fade .84s forwards;
 }
-
-.ellipsis{
+.text{
   overflow: hidden;
-  text-overflow: ellipsis;
-  max-width: 200px;
   white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.ellipse{
+  font-size: 14px;
+  margin:0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+
 }
 
 .price{
-  font-weight: bold;
+ font-weight: bold;
   padding-top: 18px;
+  position: relative;
   }
 
 .check {
@@ -293,7 +306,7 @@ nav {
   }
 
   .info{
-    height: 20%;
+
   }
   .text{
     position: relative;
@@ -312,6 +325,13 @@ nav {
   .check i{
     margin-left: 27%;
     font-size: 40px;
+  }
+
+  .ellipse{
+    font-size: 17px;
+    text-overflow: inherit;
+    overflow: inherit;
+    white-space: inherit;
   }
 
 

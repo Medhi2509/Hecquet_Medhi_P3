@@ -26,7 +26,7 @@ $text_header: #f6f6f6;
   height: 105vh;
   animation: initialLoader forwards;
   z-index: 1;
-  animation-delay: 2.1s;
+  animation-delay: 0.5s;
 }
 @keyframes initialLoader {
   from {
@@ -49,7 +49,7 @@ $text_header: #f6f6f6;
   border-top: 20px solid #3498db;
   width: 200px;
   height: 200px;
-  animation: loader 2s linear infinite;
+  animation: loader 0.5s linear infinite;
 }
 
 @keyframes loader {
@@ -154,16 +154,16 @@ $text_header: #f6f6f6;
   padding-left: 10px;
   font-size: 15px;
 
-  &:hover {
+  &:hover{
     background-color: #f5edff;
     font-weight: bold;
-    .fas {
-      &:hover{
-        color: $primaire;
-      }
+    color: black;
+    :not(.color-number){
+      color:$primaire;
       }
     }
   }
+
 
 .fas {
   padding-right: 10px;
@@ -171,10 +171,9 @@ $text_header: #f6f6f6;
 
 .far {
   padding-right: 10px;
-  &:hover{
-    color: $primaire;
-  }
 }
+
+
 
 .button_number {
   float: left;
